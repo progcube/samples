@@ -12,27 +12,7 @@ namespace Progcube.Subscriptions.Sample.Controllers
     {
         public IActionResult Index()
         {
-            return RedirectToAction("Customers");
-        }
-
-        public IActionResult Customers()
-        {
-            return View();
-        }
-
-        public IActionResult Plans()
-        {
-            return View();
-        }
-
-        public IActionResult Products()
-        {
-            return View();
-        }
-
-        public IActionResult Discounts()
-        {
-            return View();
+            return RedirectToAction("Index", "Customers");
         }
 
         public IActionResult Error()
