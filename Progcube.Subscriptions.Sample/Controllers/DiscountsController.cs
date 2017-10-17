@@ -15,7 +15,22 @@ namespace Progcube.Subscriptions.Sample.Controllers
             return View();
         }
 
+        public IActionResult Show(Guid id)
+        {
+            return View();
+        }
+
         public IActionResult Create()
+        {
+            return View();
+        }
+
+        public IActionResult Update(Guid id)
+        {
+            return View();
+        }
+
+        public IActionResult Delete(Guid id)
         {
             return View();
         }
